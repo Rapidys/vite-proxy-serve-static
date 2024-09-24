@@ -9,7 +9,7 @@ This approach is particularly beneficial during development, as it helps you avo
 You can install the package via npm or yarn:
 
 ```bash
-npm install vite-plugin-serve-static
+npm install vite-proxy-serve-static
 
 yarn add vite-proxy-serve-static
 ```
