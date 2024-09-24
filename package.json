@@ -1,0 +1,30 @@
+{
+  "name": "vite-plugin-serve-static",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "test": "vitest",
+    "dev": "tsup --watch",
+    "build": "tsup"
+  },
+  "keywords": [
+    "vite",
+    "vite-plugin",
+    "serve-static"
+  ],
+  "files": [
+    "dist"
+  ],
+  "author": "Rapidys (https://github.com/Rapidys)",
+  "license": "ISC",
+  "description": "A Vite plugin for serving static files with customizable routes and MIME type support.",
+  "devDependencies": {
+    "@types/node": "^22.6.1",
+    "tsup": "^8.3.0",
+    "typescript": "^5.6.2",
+    "vite": "^5.4.7",
+    "vitest": "^2.1.1"
+  }
+}
