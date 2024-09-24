@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../vite-plugin-serve-static/.idea/vite-plugin-serve-static.iml" filepath="$PROJECT_DIR$/../vite-plugin-serve-static/.idea/vite-plugin-serve-static.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../vite-proxy-serve-static/.idea/vite-plugin-serve-static.iml" filepath="$PROJECT_DIR$/../vite-proxy-serve-static/.idea/vite-plugin-serve-static.iml" />
     </modules>
   </component>
 </project>

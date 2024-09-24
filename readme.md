@@ -11,7 +11,7 @@ You can install the package via npm or yarn:
 ```bash
 npm install vite-plugin-serve-static
 
-yarn add vite-plugin-serve-static
+yarn add vite-proxy-serve-static
 ```
 
 ## Usage
@@ -46,8 +46,11 @@ export default defineConfig({
     ],
 });
 ```
-
-'http://localhost:5000/assets/images/aloe.jpg' — This will proxy the request and return images from the `node_modules` folder based on the path we specified.
-'http://localhost:5000/assets/scripts' — You can also specify a direct file instead of a folder, which will return the specified file.
+```text
+http://localhost:5000/assets/images/aloe.jpg — This will proxy the request and return images from the `node_modules` folder based on the path we specified.
+```
+```text
+http://localhost:5000/assets/scripts — You can also specify a direct file instead of a folder, which will return the specified file.
+```
 
 

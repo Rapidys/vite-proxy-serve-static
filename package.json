@@ -1,5 +1,5 @@
 {
-  "name": "vite-plugin-serve-static",
+  "name": "vite-proxy-serve-static",
   "version": "1.0.0",
   "type": "module",
   "main": "./dist/index.js",
