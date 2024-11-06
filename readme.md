@@ -1,4 +1,4 @@
-# vite-plugin-serve-static
+# vite-proxy-serve-static-plugin
 
 A Vite plugin for serving static files with customizable routes and MIME type support. This plugin allows you to easily serve static assets from specified directories and files within your Vite project.
 
@@ -22,7 +22,7 @@ Add `serveStatic` plugin to `vite.config.js` / `vite.config.ts`.
 // vite.config.js / vite.config.ts
 import { defineConfig } from 'vite'
 import commonConfig from './vite.config.common'
-import { serveStatic } from "vite-plugin-serve-static";
+import {serveStatic} from "vite-proxy-serve-static";
 
 export default defineConfig({
     ...commonConfig,
