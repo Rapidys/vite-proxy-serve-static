@@ -176,4 +176,5 @@ export const mimeTypes: Record<string, string> = {
     '.xml': 'application/xml',
     '.xul': 'application/vnd.mozilla.xul+xml',
     '.zip': 'application/zip',
+    '.wasm': 'application/wasm',
 };
